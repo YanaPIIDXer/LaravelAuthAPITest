@@ -16,3 +16,4 @@ RUN /bin/sh -c a2enmod rewrite
 
 WORKDIR /var/www/html/app
 
+ADD ./src /var/www/html/app
