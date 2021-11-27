@@ -1,6 +1,12 @@
 version: "3.0"
 services:
-  
+    baackend:
+        build: ./backend
+        ports:
+            - 3000:80
+        volumes:
+            - ./backend/src:/var/www/html/app
+            
     db:
         image: mysql:5.7
         platform: linux/x86_64
