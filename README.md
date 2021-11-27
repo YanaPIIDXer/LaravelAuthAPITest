@@ -1,0 +1,2 @@
+# LaravelAuthAPITest
+Laravel製のAPIでの認証テスト
